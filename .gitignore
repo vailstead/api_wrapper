@@ -1,0 +1,81 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+*.env
+
+# Distribution/packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+*.sql
+*.bak
+
+# Test coverage
+coverage/
+.coverage
+.cache/
+.nox/
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor-specific swap files
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.*
+
+# Mypy cache
+.mypy_cache/
+
+# Pyre type checker
+.pyre/
+
+# Pyright type checker
+.pyright/
+
+# Bandit security scanner
+.bandit/
+
+# Pre-commit hooks
+#.pre-commit-config.yaml
+#.pre-commit-hooks/
+
+# Ansible temporary files
+*.retry
+
+# Other
+*.bak
+*.old
+*.orig

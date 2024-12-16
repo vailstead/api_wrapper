@@ -1,0 +1,51 @@
+[MASTER]
+# The name of the modules to check, e.g., my_module
+# modules=cat_api
+ignore-patterns=.*\.log$,.*\.md$
+
+# List of directories or files to include in the checks
+init-hook=import sys; sys.path.append('.venv/Lib/site-packages')  # Adjust according to your project structure
+
+[FORMAT]
+# Maximum number of characters on a single line
+max-line-length=84
+
+# Format used for docstrings
+# docstring-convention=numpy  # Other options: google, pep257
+
+[MESSAGES CONTROL]
+# Disable certain messages
+# disable=missing-module-docstring,
+#        missing-class-docstring,
+#        missing-function-docstring,
+#        invalid-name  # Add or remove as needed
+
+[REPORTS]
+# Generate a full report at the end
+reports=no
+
+[DESIGN]
+# Maximum number of arguments for a function
+# max-args=5
+
+# Maximum number of local variables in a function
+# max-locals=15
+
+# Maximum number of return statements in a function
+# max-returns=2
+
+[TYPECHECK]
+# Disable type checking
+disable=too-few-public-methods  # Example of a type checking disable option
+
+[LOGGING]
+# Include or exclude specific logging levels
+# logging-modules=logging
+
+[VARIABLES]
+# Disable checking for unused variables
+# disable=unused-variable
+
+[SIMILARITIES]
+# Set the threshold for similar code
+# min-similarity-lines=5
